@@ -32,6 +32,11 @@ That was pretty simple, right? Now let's make the App live. We just need to star
 ```bash
 $ python manage.py runserver
 ```
+###############################################
+#if geting a error to change time zone -THEN GO TO-
+vi /todoApp/setting.py
+#change it to TIME_ZONE='ASIA/DHAKA'
+###############################################
 
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
