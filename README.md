@@ -38,6 +38,12 @@ vi /todoApp/setting.py
 #change it to TIME_ZONE='ASIA/DHAKA'
 ###############################################
 
+1.If want to expose the service 
+$ python manage.py runserver 0.0.0.0
+2.If ERROR is DISallowedHOST at/**YOUR IP**
+$ vi /todoApp/setting.py
+give ALLOWED_HOSTS ='*'
+
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
